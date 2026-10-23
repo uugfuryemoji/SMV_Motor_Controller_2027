@@ -2,9 +2,219 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 07be2df9-ea5d-478f-9c4f-55fe2239206b)
+	(uuid "07be2df9-ea5d-478f-9c4f-55fe2239206b")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 218.44 151.765)
+		(size 45.72 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c870865-edaf-449b-a2f3-e6f4619643ae")
+		(property "Sheetname" "Polarity_Protection"
+			(at 218.44 151.0534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Polarity_Protection.kicad_sch"
+			(at 218.44 156.1596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motorcontroller "
+				(path "/07be2df9-ea5d-478f-9c4f-55fe2239206b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 130.81)
+		(size 46.99 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "41885f23-872e-4cbe-b437-82ec417265a8")
+		(property "Sheetname" "Microcontroller"
+			(at 218.44 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 218.44 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motorcontroller "
+				(path "/07be2df9-ea5d-478f-9c4f-55fe2239206b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 140.97)
+		(size 46.355 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6687df6d-9d61-4482-97e3-fa3d75ae492a")
+		(property "Sheetname" "Gate_Driver"
+			(at 218.44 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Gate_Driver.kicad_sch"
+			(at 218.44 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motorcontroller "
+				(path "/07be2df9-ea5d-478f-9c4f-55fe2239206b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 120.65)
+		(size 46.99 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c0778506-bfad-4766-a60c-26e54a1344c5")
+		(property "Sheetname" "Hall_Sense"
+			(at 218.44 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Hall_Sense.kicad_sch"
+			(at 218.44 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motorcontroller "
+				(path "/07be2df9-ea5d-478f-9c4f-55fe2239206b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 110.49)
+		(size 46.355 4.445)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ef70cc9f-6f25-4211-b8be-6a12048386e8")
+		(property "Sheetname" "Power"
+			(at 218.44 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 218.44 115.5196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motorcontroller "
+				(path "/07be2df9-ea5d-478f-9c4f-55fe2239206b"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
